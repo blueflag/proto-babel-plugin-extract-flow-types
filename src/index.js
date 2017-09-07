@@ -1,12 +1,6 @@
 // @flow
 import {copySync} from 'fs-extra';
-// import {writeFile} from 'fs'
-// import findFile from './find-file'
-// import mkdirp from './mkdir'
-// import getPath from './path'
 
-// const filesWritten = [];
-//
 function getPath(file: string): Object {
     const parts = file.trim().split('/');
 
