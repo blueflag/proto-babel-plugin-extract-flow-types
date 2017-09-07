@@ -1,0 +1,15 @@
+{
+  "generator-bigdatr-startr": {
+    "promptValues": {
+      "name": "proto-babel-plugin-extract-flow-types",
+      "description": "Babel Plugin to extract flow types",
+      "version": "0.0.0",
+      "license": "UNLICENSED",
+      "private": false,
+      "author": "Allan Hortle",
+      "username": "blueflag",
+      "nameConstant": "PROTO_BABEL_PLUGIN_EXTRACT_FLOW_TYPES",
+      "example": false
+    }
+  }
+}
