@@ -1,4 +1,4 @@
-# proto-babel-plugin-extract-flow-types
+# proto-babel-plugin-extract-flow-types (pbpeft)
 
 
 ## Installation
