@@ -4,7 +4,7 @@
     "lib"
   ],
   "name": "babel-plugin-extract-flow-types",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Babel Plugin to extract flow types",
   "license": "MIT",
   "author": "Allan Hortle",
