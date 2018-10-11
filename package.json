@@ -3,17 +3,17 @@
   "files": [
     "lib"
   ],
-  "name": "proto-babel-plugin-extract-flow-types",
+  "name": "babel-plugin-extract-flow-types",
   "version": "0.1.1",
   "description": "Babel Plugin to extract flow types",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "Allan Hortle",
   "repository": {
     "type": "git",
-    "url": "git@github.com:blueflag/proto-babel-plugin-extract-flow-types.git"
+    "url": "git@github.com:blueflag/babel-plugin-extract-flow-types.git"
   },
   "bugs": {
-    "url": "https://github.com/blueflag/proto-babel-plugin-extract-flow-types/issues"
+    "url": "https://github.com/blueflag/babel-plugin-extract-flow-types/issues"
   },
   "private": false,
   "scripts": {

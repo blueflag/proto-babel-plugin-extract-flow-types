@@ -1,10 +1,10 @@
-# proto-babel-plugin-extract-flow-types (pbpeft)
+# babel-plugin-extract-flow-types (bpeft)
 
 
 ## Installation
 
 ```
-yarn add --dev git+ssh://git@github.com/blueflag/proto-babel-plugin-extract-flow-types.git#v0.1.0
+yarn add --dev babel-plugin-extract-flow-types
 ```
 
 
@@ -13,7 +13,7 @@ yarn add --dev git+ssh://git@github.com/blueflag/proto-babel-plugin-extract-flow
 ```json
 {
     "plugins": [
-        ["proto-babel-plugin-extract-flow-types", {"outDir": "lib"}]
+        ["babel-plugin-extract-flow-types", {"outDir": "lib"}]
     ]
 }
 ```
