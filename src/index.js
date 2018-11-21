@@ -1,16 +1,6 @@
 // @flow
 import {copySync} from 'fs-extra';
 
-function getPath(file: string): Object {
-    const parts = file.trim().split('/');
-
-    return {
-        srcDir: parts[0],
-        path: parts.slice(1).join('/'),
-        filename: parts[parts.length - 1]
-    };
-}
-
 export default function BabelPluginExtractFlowTypes(): Object {
     return {
         visitor: {
@@ -19,15 +9,15 @@ export default function BabelPluginExtractFlowTypes(): Object {
                     const firstComment = state.file.ast.comments[0] || {value: ''};
                     if(firstComment.value.indexOf('@flow') !== -1) {
                         const {filename} = path.hub.file.opts;
+                        const {root} = path.hub.file.opts;
                         const {outDir} = state.opts;
-                        const pathData = getPath(filename);
+                        const {srcDir} = state.opts;
 
-
-                        const outFolder = `${outDir}/${pathData.path}.flow`;
+                        const dest = filename.replace(root, '').replace(srcDir, outDir);
+                        const outFolder = `${root}/${dest}.flow`;
 
                         try {
                             copySync(filename, outFolder);
-                            console.log(filename, '->', outFolder);
                         } catch (err) {
                             console.error(err);
                         }
