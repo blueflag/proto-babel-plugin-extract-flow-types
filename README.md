@@ -13,7 +13,7 @@ yarn add --dev babel-plugin-extract-flow-types
 ```json
 {
     "plugins": [
-        ["babel-plugin-extract-flow-types", {"outDir": "lib"}]
+        ["babel-plugin-extract-flow-types", {"srcDir": "src", "outDir": "lib"}]
     ]
 }
 ```
