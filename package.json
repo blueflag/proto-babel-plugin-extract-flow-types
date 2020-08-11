@@ -10,10 +10,10 @@
   "author": "Allan Hortle",
   "repository": {
     "type": "git",
-    "url": "git@github.com:blueflag/babel-plugin-extract-flow-types.git"
+    "url": "git@github.com:92green/babel-plugin-extract-flow-types.git"
   },
   "bugs": {
-    "url": "https://github.com/blueflag/babel-plugin-extract-flow-types/issues"
+    "url": "https://github.com/92green/babel-plugin-extract-flow-types/issues"
   },
   "private": false,
   "scripts": {
